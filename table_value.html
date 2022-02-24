@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src = task2.js>
+		</script>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+.header{
+background-color:cyan;
+
+}
+#table{
+text-align:center;
+}
+
+h1{
+ color:blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Student Table</h1>
+
+<table id="table">
+  
+  <tr class="header">
+    <th>Student Name</th>
+    <th>Roll Number</th>
+    <th>Marks out of 100</th>	
+
+  </tr>
+  <tr>
+    <td>Suraj</td>
+    <td>10</td>
+    <td>90</td>
+
+  </tr>
+  <tr>
+    <td>Pooja</td>
+    <td>11</td>
+    <td>60</td>
+  </tr>
+  <tr>
+    <td>Afroj</td>
+    <td>12</td>
+    <td>60</td>
+  </tr>
+</table>
+<br>
+<lable>Row</lable>
+<input type="text"  placeholder="Enter Row No" id="row"> <br><br>
+<lable>Column</lable>
+<input type="text" placeholder="Enter Coloumn No" id="coloumn"><br><br>
+<lable>Changed input</lable>
+<input type="text"   id="result"><br><br>
+<input type="button" value="submit" onclick= "myfunction()">
+
+
+</body>
+</html>
